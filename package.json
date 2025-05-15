@@ -1,5 +1,5 @@
 {
-  "name": "koyuweb",
+  "name": "sanity-starterkit",
   "packageManager": "bun@1.2.5",
   "private": true,
   "scripts": {

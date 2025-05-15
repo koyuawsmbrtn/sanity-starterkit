@@ -9,10 +9,12 @@ import {media} from 'sanity-plugin-media'
 
 export default defineConfig({
   name: 'default',
-  title: 'Sanity Starter Kit',
+  title: process.env.SANITY_STUDIO_TITLE || 'Sanity Studio',
 
-  projectId: 'tm8059cg',
-  dataset: 'production',
+  projectId: process.env.SANITY_PROJECT_ID || 'tm8059cg',
+  dataset: process.env.SANITY_DATASET || 'production',
+
+  projectVersion: process.env.SANITY_STUDIO_VERSION || '2024-01-01',
 
   plugins: [structureTool({
     structure: (S) =>

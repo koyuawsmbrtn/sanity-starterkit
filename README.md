@@ -30,7 +30,7 @@ cd web
 
 2. Install dependencies:
 ```bash
-npm install
+bun i
 ```
 
 3. Set up environment variables:
@@ -38,12 +38,8 @@ npm install
 cp .env.example .env.local
 ```
 
-4. Update the `.env.local` file with your Sanity credentials:
-```env
-NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
-NEXT_PUBLIC_SANITY_DATASET=production
-NEXT_PUBLIC_SANITY_API_VERSION=2024-03-16
-```
+1. Update the `.env` file in the `nextjs` with your Sanity credentials
+2. Update the `.env` file in the `studio` app with your Sanity credentials
 
 ### Development
 
@@ -57,8 +53,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 ### Building for Production
 
 ```bash
-npm run build
-npm run start
+bun run build
+bun run start
 ```
 
 ## Project Structure
@@ -68,8 +64,6 @@ web/
 ├── apps/
 │   ├── nextjs/        # Next.js frontend application
 │   └── studio/        # Sanity Studio
-├── packages/          # Shared packages and utilities
-└── public/           # Static assets
 ```
 
 ## Content Management
@@ -83,7 +77,7 @@ cd apps/studio
 
 2. Start the studio:
 ```bash
-npm run dev
+bun dev
 ```
 
 Open [http://localhost:3333](http://localhost:3333) to access Sanity Studio.
