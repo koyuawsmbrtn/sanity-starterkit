@@ -1,4 +1,4 @@
-# koyu's personal website
+# Sanity Starter Kit
 
 A modern, performant website built with Next.js 14, ShadcnUI, Tailwind CSS, and Sanity CMS.
 
@@ -45,7 +45,7 @@ cp .env.example .env.local
 
 Run the development server:
 ```bash
-npm run dev
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the site.
