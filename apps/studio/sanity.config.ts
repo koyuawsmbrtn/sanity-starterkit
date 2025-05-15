@@ -9,9 +9,9 @@ import {media} from 'sanity-plugin-media'
 
 export default defineConfig({
   name: 'default',
-  title: 'koyu\'s personal website',
+  title: 'Sanity Starter Kit',
 
-  projectId: 'qo2xqopm',
+  projectId: 'tm8059cg',
   dataset: 'production',
 
   plugins: [structureTool({
