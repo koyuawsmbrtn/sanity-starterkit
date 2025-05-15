@@ -22,11 +22,7 @@ A modern, performant website built with Next.js 14, ShadcnUI, Tailwind CSS, and 
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/koyuspace/web.git
-cd web
-```
+1. Use this template:
 
 2. Install dependencies:
 ```bash
